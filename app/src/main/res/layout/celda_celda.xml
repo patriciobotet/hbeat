@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/celdaChatImageView"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#111"
+            android:layout_gravity="bottom"
+            android:alpha="0.7"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del producto"
+                android:textColor="#F8F6F6"
+                android:textSize="30dp"
+                android:id="@+id/celdaTextViewNombreArtista"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$$$$$$$$$$"
+                android:textColor="#4CAF50"
+                android:textSize="20dp"
+                android:id="@+id/celdaTextViewNombreCancion"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+</androidx.cardview.widget.CardView>
